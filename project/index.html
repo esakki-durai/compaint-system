@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The complaint & advice</title>
+	<style type="text/css">
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-image: url('bg.jpg');
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.details button {
+			font-size: 1.5rem;
+			letter-spacing: .1rem;
+			color: white;
+			font-family: 'Poppins', sans-serif;
+			background-color: rgba(0,0,0,0.2);
+			border: 0;
+			width: 90%;
+			margin-top: 2rem;
+			color: white;
+			font-size: 2.5vm;
+			padding: 2%;
+			transition: 0.3s;
+			margin-bottom: 3%;}
+
+		.details button:hover{
+			background-color: rgba(0, 0, 0,0.4);
+			transform: scale(1.023);}
+	</style>
+	
+</head>
+<body>
+	<div class="details">
+			<button id="com"> public property complaint for public</button>
+			<button id="adv">Advice for goverment management and property</button>
+			<button id="perrepo">Personal report(criminal AND CIVIL)</button>
+		</div>
+
+	<script type="text/javascript">
+		document.getElementById('com').onclick=function(){
+			location.href="compaint.html";};
+		document.getElementById('adv').onclick=function(){
+			location.href="advice.html";};
+		document.getElementById('perrepo').onclick=function(){
+			location.href="personalcomp";};
+	</script>
+
+</body>
+</html>
